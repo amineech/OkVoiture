@@ -1,0 +1,38 @@
+/* Global rules start */
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;  
+}
+input:not(input[type='file']) {
+  border-radius: 8px;
+  outline: none;
+}
+.flash-msg  {
+  margin-top: 12px;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+}
+.flash-message-green {
+  color: #50C878;
+}
+.flash-message-red { 
+  color: #ff6666;
+}
+.box-flash {
+  color: #ffffff;
+}
+/* Global rules end */

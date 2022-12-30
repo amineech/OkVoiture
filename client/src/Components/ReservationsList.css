@@ -1,0 +1,14 @@
+h1 {
+    background-color: #a2122a;
+    padding: 20px;
+    width: 100%;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.reservations-container {
+    width: 80%;
+    margin: 50px auto;
+}

@@ -1,0 +1,70 @@
+.filtre {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+.filtre select {
+    width: 70%;
+    padding: 12px 30px;
+    font-size: 20px;
+    outline: none;
+}
+.filtre input {
+    cursor: pointer;
+    width: 180px;
+    border: 1px solid #a2122a;
+    border-radius: 6px;
+    background-color: #ffffff;
+    padding: 6px 20px;
+    color: #a2122a;
+    transition:  .3s all;
+}
+.filtre input:hover {
+    background-color: #a2122a;
+    color: #ffffff;
+}
+table, thead, tbody, tr, th, td {
+    border-collapse: collapse;
+}
+table {
+    overflow: auto;
+    width: 100%;
+    margin-top: 20px;
+}
+tr:nth-child(2n) {
+    background-color: #f5f5dc;
+}
+th, td {
+    text-align: center;
+}
+th {
+    padding: 12px 20px;
+    background-color: #808080;
+    color: #ffffff;
+    font-weight: 400;
+}
+td {
+    padding: 20px;
+    color: #808080;
+}
+th:first-child,
+td:first-child {
+    display: none;
+}
+td form input[type='submit'] {
+    cursor: pointer;
+    padding: 2px 8px;
+    background-color: #ffffff;
+    color: #a2122a;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: .3s all;
+    border: 2px solid #a2122a;
+    margin-top: 4px;
+    width: 100%;
+}
+td form input[type='submit']:hover {
+    background-color: #a2122a;
+    color: #ffffff;
+}
